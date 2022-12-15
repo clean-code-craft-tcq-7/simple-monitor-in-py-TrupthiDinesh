@@ -1,6 +1,6 @@
- def Check_Temperature(temperature):
+def check_temperature(temperature):
     if temperature < 0 or temperature > 45:
-        print("temperature of battery is not ok!")
+        print("Temperature of battery is not OK!")
         return False
-    print("temperature of battery is ok!")
+    print("Temperature of battery is OK!")
     return True
