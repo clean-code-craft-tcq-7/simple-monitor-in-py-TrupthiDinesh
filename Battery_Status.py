@@ -1,6 +1,6 @@
 from soc import check_soc
 from Temperature import check_temperature
-from Charge_rate import check_charge_rate
+from charge_rate import check_charge_rate
 
 
 def battery_status(temperature, soc, charge_rate):
