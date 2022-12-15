@@ -1,4 +1,4 @@
-from battery_status import battery_is_ok
+from Battery_Status import battery_is_ok
 from SOC import check_soc
 from Temperature import Check_Temperature
 from charge_rate import check_charge_rate
